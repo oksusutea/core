@@ -38,7 +38,7 @@ public class NetworkClient {
         call("초기화 연결 메시지");
     }
 
-    //Destroyy bean이 구동될때
+    //Destroy bean이 구동될때
     @PreDestroy
     public void close() {
         System.out.println("NetworkClient.close");
